@@ -67,6 +67,13 @@ const sanitizer = sanitize({
   li: {
     value: keep,
   },
+  // inline media attachments
+  img: {
+    href: filterHref(),
+    title: keep,
+    loading: keep,
+    src: keep,
+  },
 })
 
 /**
