@@ -74,6 +74,10 @@ const sanitizer = sanitize({
     loading: keep,
     src: keep,
   },
+  // table
+  table: {},
+  tr: {},
+  td: {},
 })
 
 /**
